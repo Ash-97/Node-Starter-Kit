@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Welcome to Albums</title>
+  </head>
+  <body>
+    <h1>
+      Albums
+    </h1>
+    <h2>
+      Add an album
+    </h2>
+    <form action="/albums" method="post">
+      <label>Album Id:</label>
+         <input type="number" name="albumId" /> <br />
+         <label>Artist Name:</label>
+         <input type="text" name="artistName" /> <br />
+         <label>Collection Name:</label>
+         <input type="text" name="collectionName" /> <br />
+         <Label>Release Date:</Label>
+         <input type="text" name="releaseDate" /> <br />
+         <Label> Primary Genre Name:</Label>
+        <input type="text" name="primaryGenreName" /> <br />
+      </p>
+      <button type="submit">
+        Send Quote
+      </button>
+    </form>
+    <a href="/quotes">See all quotes</a>
+    </body>
+</html>
